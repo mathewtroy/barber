@@ -10,16 +10,16 @@
 
 
    <!-- Custom main css file link  -->
-   <link rel="stylesheet" href="css/style.css"> 
+   <link rel="stylesheet" href="static/css/style.css"> 
 
    <!-- Custom footer css file link  -->
-   <link rel="stylesheet" href="css/style-footer.css">
+   <link rel="stylesheet" href="staticcss/style-footer.css">
 
    <!-- Media queries  -->
-   <link rel="stylesheet" href="css/media.css">  
+   <link rel="stylesheet" href="static/css/media.css">  
 
    <!-- Media print -->
-   <link rel="stylesheet" href="css/print.css"> 
+   <link rel="stylesheet" href="static/css/print.css"> 
 
    
    <!-- Darkmode implementation-->

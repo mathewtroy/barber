@@ -93,7 +93,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Book</title>
+      <title>Booking</title>
 
       <!-- Import CSS section from PHP file -->
       <?php require "inc/_style.php" ?>
@@ -108,16 +108,7 @@
       <div class="yellows">
          <div class="heading-book"> 
 
-         <h1>Booking</h1>
-
-         <!-- Buttons for moving to the next and previous pages -->
-         <div class="content-page">
-            
-            <!-- page 3 -->
-            <a href="package.php" class="btn"> ◄ </a>       
-            
-            <!-- page 5 -->
-            <a href="founder.php" class="btn"> ► </a>
+            <h1>Booking</h1>
 
          </div> 
                   

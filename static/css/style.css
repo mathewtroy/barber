@@ -516,6 +516,16 @@ h1 {
    Booking style
 */
 
+.heading-book {
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 9rem;
+   padding-bottom: 15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url("../img/bg/book2.jpg") ;
+}
 
 .booking h2 {
    color:var(--black);
@@ -582,19 +592,6 @@ label.inputBox {
    font-size: 2rem;
 
 }
-
-
-.heading-book {
-   background-size: cover !important;
-   background-position: center !important;
-   padding-top: 9rem;
-   padding-bottom: 15rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-image: url("../images/bg/header-bg-book.png");
-}
-
 
 
 /*---------------------------------------------------------------------

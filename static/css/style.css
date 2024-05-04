@@ -366,6 +366,79 @@ h1 {
 
 
 /*---------------------------------------------------------------------
+   About style
+*/
+
+.heading-price {
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 9rem;
+   padding-bottom: 15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url("../img/bg/price2.jpg") ;
+}
+
+.price {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:3rem;
+}
+
+.price .image {
+   flex:1 1 40rem;
+}
+
+.price .content {
+   flex:1 1 40rem;
+   text-align: center;
+}
+
+.price .content h3 {
+   font-size: 18pt;
+   color:var(--black);
+   text-transform: none;
+}
+
+.price .content p {
+   font-size: 14pt;
+   color:var(--light-black);
+   line-height: 2;
+   padding:1rem 0;
+}
+
+.price .content .icons-container {
+   margin-top: 15pt; 
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   align-items: flex-end;
+}
+
+.price .content .icons-container .icons {
+   background: var(--light-bg);  
+   padding:2rem;
+   flex:1 1 16rem;
+}
+
+.price .content .icons-container .icons i {
+   font-size: 5rem;
+   margin-bottom: 2rem; 
+   color:var(--main-color);
+}
+
+.price .content .icons-container .icons a {
+   font-weight: bold;
+   font-size: 2rem;
+   color:#00551c;
+   display:block;
+}
+
+
+
+/*---------------------------------------------------------------------
    Booking style
 */
 

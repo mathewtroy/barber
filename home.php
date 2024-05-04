@@ -34,5 +34,6 @@
       <!-- Import footer section from PHP file -->
       <?php require "inc/_footer.php" ?>
 
+      <!-- images from website: https://wallpapers.com/ -->
    </body>
 </html>

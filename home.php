@@ -24,11 +24,23 @@
          <!-- background of about -->
          <div class="heading-home"> 
             
-            <h1>Home</h1>
+            
          
          </div>
       </div>
 
+      <section>
+
+         <div>
+            Offer
+         </div>
+
+         <div>
+            Gallery
+         </div>
+
+
+      </section>
 
 
       <!-- Import footer section from PHP file -->

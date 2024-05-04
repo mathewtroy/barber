@@ -127,7 +127,7 @@ section {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url("../img/bg/home5.jpg") ;
+   background: url("../img/bg/home3.jpg") ;
 }
 
 h1 {
@@ -232,7 +232,7 @@ h1 {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: url("../img/bg/about4.jpg") ;
+   background: url("../img/bg/all-2.jpg") ;
 }
 
 .about {
@@ -290,6 +290,80 @@ h1 {
    color:#00551c;
    display:block;
 }
+
+
+
+/*---------------------------------------------------------------------
+   Team style
+*/
+
+.heading-team {
+   background-size: cover !important;
+   background-position: center !important;
+   padding-top: 9rem;
+   padding-bottom: 15rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url("../img/bg/team.jpg") ;
+}
+
+.team {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:3rem;
+}
+
+.team .image {
+   flex:1 1 40rem;
+}
+
+.team .content {
+   flex:1 1 40rem;
+   text-align: center;
+}
+
+.team .content h3 {
+   font-size: 18pt;
+   color:var(--black);
+   text-transform: none;
+}
+
+.team .content p {
+   font-size: 14pt;
+   color:var(--light-black);
+   line-height: 2;
+   padding:1rem 0;
+}
+
+.team .content .icons-container {
+   margin-top: 15pt; 
+   display: flex;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   align-items: flex-end;
+}
+
+.team .content .icons-container .icons {
+   background: var(--light-bg);  
+   padding:2rem;
+   flex:1 1 16rem;
+}
+
+.team .content .icons-container .icons i {
+   font-size: 5rem;
+   margin-bottom: 2rem; 
+   color:var(--main-color);
+}
+
+.team .content .icons-container .icons a {
+   font-weight: bold;
+   font-size: 2rem;
+   color:#00551c;
+   display:block;
+}
+
 
 /*---------------------------------------------------------------------
    Booking style

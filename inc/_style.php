@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="static/css/style.css"> 
 
    <!-- Custom footer css file link  -->
-   <link rel="stylesheet" href="staticcss/style-footer.css">
+   <link rel="stylesheet" href="static/css/style-footer.css">
 
    <!-- Media queries  -->
    <link rel="stylesheet" href="static/css/media.css">  

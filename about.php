@@ -24,7 +24,7 @@
          <!-- background of about -->
          <div class="heading-about"> 
             
-            
+            <h1>About</h1>
          
          </div>
       </div>

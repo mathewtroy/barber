@@ -8,7 +8,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>About</title>
+      <title>Price</title>
 
       <!-- Import CSS section from PHP file -->
       <?php require "inc/_style.php" ?>
@@ -21,12 +21,12 @@
       <?php require "inc/_header.php" ?>
 
       <div class="main">
-         <!-- background of about -->
-         <div class="heading-price"> 
+        <!-- background of about -->
+        <div class="heading-price"> 
             
-            
-         
-         </div>
+            <h1>Price</h1>
+        
+        </div>
       </div>
 
       <section>

@@ -24,7 +24,7 @@
          <!-- background of about -->
          <div class="heading-home"> 
             
-            
+            <h1>Home</h1>
          
          </div>
       </div>

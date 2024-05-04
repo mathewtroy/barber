@@ -24,7 +24,7 @@
          <!-- background of about -->
          <div class="heading-team"> 
             
-            
+            <h1>Team</h1>
          
          </div>
       </div>

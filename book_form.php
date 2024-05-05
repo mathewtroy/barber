@@ -223,33 +223,7 @@
 
       </div>
 
-      <div class="form-control">
 
-         <label for="days" class="inputBox">How many days</label>
-         <p class="inform">Write the number of days of rest *use only digits, 
-            maximum 14 days</p>
-         <input type="number" 
-         name="days" 
-         value="<?= htmlspecialchars($days); ?>"
-         min="1" 
-         max="14" 
-         required placeholder="Number of days (Required)"
-         id="days">
-         <span class="error"></span>
-
-         <?php
-               if (isset($validateDaysMin) && $validateDaysMin == false) {
-                  echo '<span class="error">Must start from 1 day</span>';
-               }
-
-               if (isset($validateDaysMax) && $validateDaysMax == false) {
-                  echo '<span class="error">Must end to 14 days</span>';
-               }
-         ?>
-
-
-
-      </div>
          
          <!-- CSRF -->
          <input type="hidden" name="token" value="<?=$_SESSION['token'];?>" >

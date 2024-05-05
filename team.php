@@ -29,14 +29,85 @@
          </div>
       </div>
 
-      <section>
+      <section class="team">
 
-         <div>
-            Team
+      <h2 class="heading-title">Our masters</h2>
+
+         <div class="box-container">
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber1.jpg">
+               </div>
+               <div class="content">
+                  <h3>Jiri Novak</h3>
+                  <h4>Master Barber</h4>
+                  
+                  <p>
+                     Jiri Novak, master barber and founder of Smith's Barbershop, 
+                     brings two decades of grooming expertise to downtown. 
+                     <br>
+                     His precision cuts and timeless styles have made him a community favorite, 
+                     offering not just haircuts, but an experience of tradition and excellence.
+                  </p>
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber2.jpg">
+               </div>
+               <div class="content">
+                  <h3>Jiri Prochazka</h3>
+                  <h4>Master Barber</h4>
+
+                  <p>
+                     Jiri Prochazka, master barber and founder of Smith's Barbershop, 
+                     brings two decades of grooming expertise to downtown. 
+                     <br>
+                     His precision cuts and timeless styles have made him a community favorite, 
+                     offering not just haircuts, but an experience of tradition and excellence.
+                  </p>
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber3.jpg">
+               </div>
+               <div class="content">
+                  <h3>Alex Great</h3>
+                  <h4>Master Barber</h4>
+
+                  <p>
+                     Alex Great, master barber and founder of Smith's Barbershop, 
+                     brings two decades of grooming expertise to downtown. 
+                     <br>
+                     His precision cuts and timeless styles have made him a community favorite, 
+                     offering not just haircuts, but an experience of tradition and excellence.
+                  </p>
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber4.jpg">
+               </div>
+               <div class="content">
+                  <h3>Iwan Drago</h3>
+                  <h4>Master Barber</h4>
+
+                  <p>
+                     Iwan Drago, master barber and founder of Smith's Barbershop, 
+                     brings two decades of grooming expertise to downtown. 
+                     <br>
+                     His precision cuts and timeless styles have made him a community favorite, 
+                     offering not just haircuts, but an experience of tradition and excellence.
+                  </p>
+               </div>
+            </div>
+
          </div>
-
-
-
 
       </section>
 

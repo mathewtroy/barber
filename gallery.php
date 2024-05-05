@@ -29,14 +29,85 @@
         </div>
       </div>
 
-      <section>
+      <section class="gallery">
 
-         <div>
-            Content
+      <h2 class="heading-title">Look at our works</h2>
+
+         <div class="box-container">
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber1.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber2.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber3.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber4.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber5.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber6.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber7.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber1.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber2.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber3.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber4.jpg">
+               </div>
+            </div>
+
+            <div class="box">
+               <div class="image">
+                  <img src="./static/img/gal/barber5.jpg">
+               </div>
+            </div>
+
          </div>
-
-
-
 
       </section>
 

@@ -29,12 +29,27 @@
          </div>
       </div>
 
-      <section>
+      <section class="price">
 
-         <div>
-            Content
+      <h2 class="heading-title">Glad to see you</h2>
+
+         <div class="box-container">
+
+            <div class="box">
+
+               <div class="content">                
+                  <p>
+                     Step into our barbershop, where blades meet precision and style meets substance. <br/>
+                     Led by Jack, a veteran barber, our team embodies traditional craftsmanship with a modern edge. <br/>
+                     Experience the raw power of a straight razor, the satisfying snip of scissors, <br/>
+                     and the subtle artistry of beard sculpting. It is not just a haircut. <br/>
+                     It is reclaiming masculinity with confidence and swagger.
+                  </p>
+               </div>
+            </div>
+
+
          </div>
-
 
 
 

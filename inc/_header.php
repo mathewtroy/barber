@@ -4,12 +4,12 @@
 <!-- <header>    -->
 
    <!-- Button Darkmode -->
-   <a href="?theme=<?php echo $themeToggle; ?>"><strong>Darkmode</strong></a>
+   <!-- <a href="?theme=<?php echo $themeToggle; ?>"><strong>Darkmode</strong></a> -->
 
    <!-- <a><button class="btn">Darker</button></a> -->
 
-   <a href="home.php" class="logo">
-      <h2>ZWA</h2></a>
+   <a href="home.php" class="logo"> 
+      <h2>BARBERSHOP</h2></a>
    
    <!-- <div class="darkmode"><button class="btn">Dark</button></div> -->
          

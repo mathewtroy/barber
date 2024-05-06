@@ -48,10 +48,7 @@
          required pattern ='[A-Za-z].{1,19}'
          id="name_b">
          <span class="error"></span>
-<!-- 
 
-
- -->
          <?php
                if (isset($validateNameBookMin) && $validateNameBookMin == false) {
                   echo '<span class="error">Firstname must be at least 2 characters</span>';
@@ -118,138 +115,23 @@
 
       </div>
 
-
-      <div class="form-control">
- 
-         <label for="address" class="inputBox">Address</label>
-         <p class="inform">Write your address *do not use special characters</p>
-         <input type="text" 
-         name="address" 
-         value="<?= htmlspecialchars($address); ?>"
-         placeholder="Enter your address (Required)"
-         required pattern ='[A-Za-z_ ].{3,29}'
-         id="address">
-         <span class="error"></span>
-<!-- 
-       
--->
-         <?php
-               if (isset($validateAddressMin) && $validateAddressMin == false) {
-                  echo '<span class="error">Address must be at least 4 characters</span>';
-               }
-
-               if (isset($validateAddressMax) && $validateAddressMax == false) {
-                  echo '<span class="error">Address must be no more than 40 characters</span>';
-               }
-
-               if (isset($validateAddressPattern) && $validateAddressPattern == false) {
-                  echo '<span class="error">Address must contain Latin alphabets, digits and space</span>';
-               }    
-         ?>
-      </div>
-
-
       <div class="form-control">
 
-         <label for="location" class="inputBox">Where to</label>
-         <p class="inform">Write the destination, use only Latin letter</p>
-         <input type="text" 
-         name="location" 
-         value="<?= htmlspecialchars($location); ?>"
-         placeholder="Place you want to visit (Required)"
-         required pattern ='[A-Za-z].{3,20}'
-         id="location">
-         <span class="error"></span>
-
-<!-- 
-         
--->
-         <?php
-               if (isset($validateLocationMin) && $validateLocationMin == false) {
-                  echo '<span class="error">Location must be at least 4 characters</span>';
-               }
-
-               if (isset($validateLocationMax) && $validateLocationMax == false) {
-                  echo '<span class="error">Location must be no more than 20 characters</span>';
-               }
-
-               if (isset($validateLocationPattern) && $validateLocationPattern == false) {
-                  echo '<span class="error">Location must contain only Latin alphabets</span>';
-               }    
-         ?>
-      </div>
-
-
-<div class="form-control">
-
-         <label for="guests" class="inputBox">How many persons</label>
-         <p class="inform">How many people will be on tour *use only digits, maximum 
-            10 persons</p>
-         <input type="number" 
-         name="guests" 
-         value="<?= htmlspecialchars($guests); ?>"
-         min="1" 
-         max="10" 
-         required placeholder="Number of guests (Required)"
-         id="guests">
-         <span class="error"></span>
-
-         <?php
-               if (isset($validateGuestsMin) && $validateGuestsMin == false) {
-                  echo '<span class="error">Guests must start from 1 person</span>';
-               }
-
-               if (isset($validateGuestsMax) && $validateGuestsMax == false) {
-                  echo '<span class="error">Guests must end to 10 persons</span>';
-               }
-         ?>
-
-   </div>
-
-
-      <div class="form-control">
-
-         <label for="arrivals" class="inputBox">Arrivals</label>
+         <label for="reservation" class="inputBox">Reservation</label>
          <p class="inform">Write your departure date *date no early than today</p>
          <input type="date" 
-         name="arrivals" 
-         value="<?= htmlspecialchars($arrivals); ?>"
+         name="reservation" 
+         value="<?= htmlspecialchars($reservation); ?>"
          min="<?= date('Y-m-d') ?>" 
          required
-         id="arrivals">
+         id="reservation">
          <!-- minimal value is today date -->
          <!-- https://stackoverflow.com/questions/6982692/how-to-set-input-type-dates-default-value-to-today -->
          <span class="error"></span>
 
       </div>
 
-      <div class="form-control">
 
-         <label for="days" class="inputBox">How many days</label>
-         <p class="inform">Write the number of days of rest *use only digits, 
-            maximum 14 days</p>
-         <input type="number" 
-         name="days" 
-         value="<?= htmlspecialchars($days); ?>"
-         min="1" 
-         max="14" 
-         required placeholder="Number of days (Required)"
-         id="days">
-         <span class="error"></span>
-
-         <?php
-               if (isset($validateDaysMin) && $validateDaysMin == false) {
-                  echo '<span class="error">Must start from 1 day</span>';
-               }
-
-               if (isset($validateDaysMax) && $validateDaysMax == false) {
-                  echo '<span class="error">Must end to 14 days</span>';
-               }
-         ?>
-
-
-
-      </div>
          
          <!-- CSRF -->
          <input type="hidden" name="token" value="<?=$_SESSION['token'];?>" >

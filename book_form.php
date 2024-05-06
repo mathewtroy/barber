@@ -2,7 +2,7 @@
 
 <section class="booking">
 
-   <h2 class="heading-title">Reserve mow</h2>
+   <h2 class="heading-title">Reserve now</h2>
 
 <!--TODO  -->
 

@@ -12,7 +12,7 @@
    $address = '';
    $location = '';
    $guests = '';
-   $arrivals = '';
+   $reservation = '';
    $days = '';
 
    $bookFormIsSent = isset($_POST['do_send']);
@@ -33,11 +33,8 @@
       $name_b = $_POST['name_b'];
       $email_b = $_POST['email_b'];
       $phone = $_POST['phone'];
-      $address = $_POST['address'];
-      $location = $_POST['location'];
-      $guests = $_POST['guests'];
-      $arrivals = $_POST['arrivals'];
-      $days = $_POST['days'];
+      $reservation = $_POST['reservation'];
+
 
 
       $validateNameBookMin = valNameBookMin($name_b);
@@ -48,32 +45,13 @@
 
       $validateStartPhone = valStartPhone($phone);
 
-      $validateAddressMin = valAddressMin($address);
-      $validateAddressMax = valAddressMax($address);
-      $validateAddressPattern = valAddressPattern($address);
-
-      $validateLocationMin = valLocationMin($location);
-      $validateLocationMax = valLocationMax($location);
-      $validateLocationPattern = valLocationPattern($location);
-
-      $validateGuestsMin = valGuestsMin($guests);
-      $validateGuestsMax = valGuestsMax($guests);
-
-      $validateDaysMin = valDaysMin($days);
-      $validateDaysMax = valDaysMax($days);
-
 
       if ($validateNameBookMin && $validateNameBookMax && $validateNameBookPattern 
-      && $validateEmailBookPattern 
-      && $validateStartPhone
-      && $validateAddressMin && $validateAddressMax && $validateAddressPattern 
-      && $validateLocationMin && $validateLocationMax && $validateLocationPattern
-      && $validateGuestsMin && $validateGuestsMax
-      && $validateDaysMin && $validateDaysMax) {
+      && $validateEmailBookPattern && $validateStartPhone) {
          // everything is OK, I can work with data
          // perhaps create a new user in the DB
-         $request = " INSERT INTO book_form(name_b, email_b, phone, address, location, guests, arrivals, days) 
-         VALUES('$name_b','$email_b','$phone','$address','$location','$guests','$arrivals','$days') ";
+         $request = " INSERT INTO book_form(name_b, email_b, phone, reservation) 
+         VALUES('$name_b','$email_b','$phone','$reservation') ";
          mysqli_query($conn, $request);
 
          header('location:book.php');

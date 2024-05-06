@@ -2,7 +2,7 @@
 
 <section class="booking">
 
-   <h2 class="heading-title">Book your trip!</h2>
+   <h2 class="heading-title">Reserve mow</h2>
 
 <!--TODO  -->
 
@@ -13,7 +13,7 @@
       <?php if (!isset($_SESSION['user_name']) && !isset($_SESSION['admin_name']) ): ?>
          
       <p class="not-user">If you have a profile in this website, 
-         you can book a tour pack.
+         you can create a reservation.
          To do this, log into your account.
       </p>
       
@@ -118,7 +118,7 @@
       <div class="form-control">
 
          <label for="reservation" class="inputBox">Reservation</label>
-         <p class="inform">Write your departure date *date no early than today</p>
+         <p class="inform">Choose reservation date</p>
          <input type="date" 
          name="reservation" 
          value="<?= htmlspecialchars($reservation); ?>"
